@@ -1,0 +1,55 @@
+body{
+  background-color:rgb(244, 247, 247);
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.contact-page{
+  background-color:rgb(19, 227, 255);
+  margin-bottom: 20px;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px;
+}
+input[type='text']{
+  width: 100%;
+  padding:3px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+input[type='submit']{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 3px;
+  border-radius:2px ;
+  border: 1% solid black;
+}
+.abc ul{
+  color: blue;
+  text-decoration:underline;
+  justify-content: center;
+
+}
+.facebook-btn{
+  padding: 3px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+}
+.google-btn{
+  padding: 3px;
+  width: 100%;
+  background-color: red;
+  color:white;
+  border-radius: 2px;
+}
+.contact-page a:hover{
+  background-color: brown;
+}
+.center{
+  text-align: center;
+}
